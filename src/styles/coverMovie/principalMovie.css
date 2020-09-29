@@ -1,0 +1,94 @@
+.principalMovie{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.principalMovie-info{
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    height: 100%;
+    width: 50%;
+}
+
+/* Info Content */
+
+.principalMovie-info > *{margin-top: 5%;}
+
+.principalMovie-info p{font-weight: 300;}
+
+/* Buttons */
+
+.principalMovie-button{
+    background: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    margin: 0 2px;
+    padding: 2% 4%;
+}
+
+.principalMovie-button:hover{opacity: .9;}
+
+.principalMovie-button-play{
+    color: black;
+    background-color: white;
+}
+
+.principalMovie-button-info{
+    color: white;
+    background-color: gray;
+}
+
+
+
+@media screen and (max-width:860px){
+    .principalMovie{height: 70vh;}
+
+    .principalMovie-info{width: 60%;}
+
+    .principalMovie-info p{
+        font-size: 12px;
+    }
+    
+    .principalMovie-button{
+        font-size: 16px;
+        margin: 0 2px;
+        padding: 2% 4%;
+    }
+}
+
+@media screen and (max-width:425px){
+    .principalMovie{height: 50vh;}
+
+    .principalMovie-info h2{font-size: 16px;}
+    
+    .principalMovie-info p{font-size: 12px;}    
+
+    .principalMovie-button{
+        font-size: 12px;
+        margin: 0 2px;
+        padding: 2% 4%;
+    }
+}
+
+@media screen and (max-width:320px){
+
+    .principalMovie{height: 50vh;}
+
+    .principalMovie-info p{font-size: 12px;}
+
+    .principalMovie-button{
+        font-size: 10px;
+        margin: 0 2px;
+        padding: 2% 3%;
+    }
+}

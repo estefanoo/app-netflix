@@ -1,0 +1,94 @@
+/* Big Card: informacion de cada pelicula */
+
+.bigCard{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+    width: 100%;
+}
+
+/* Info Content */
+
+.bigCard-info{
+    background: linear-gradient(to right, rgba(0,0,0,1) 61%,rgba(0,0,0,0) 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    height: 100%;
+    width: 50%;
+}
+
+.bigCard-info > *{margin-top: 5%;}
+
+.bigCard p{font-weight: 300;}
+
+/* Buttons */
+
+.bigCard-button{
+    background: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    margin: 0 2px;
+    padding: 2% 4%;
+}
+
+.bigCard-button:hover{opacity: .8;}
+
+.bigCard-button-play{
+    color: black;
+    background-color: white;
+}
+
+.bigCard-button-info{
+    color: white;
+    background-color: gray;
+}
+
+/* X close Big card */
+
+.bigCard-close{
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.bigCard-close h3{
+    text-shadow: 0px 10px 40px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.bigCard-close h3:hover{color: rgb(189, 189, 189);}
+
+
+@media screen and (max-width:768px){
+    
+    .bigCard-info p{font-size: 14px;}
+    
+    .bigCard-button{
+        font-size: 12px;
+        margin: 0 2px;
+        padding: 2% 3%;
+    }
+}
+
+
+@media screen and (max-width:425px){
+    
+    .bigCard{height: 50vh;}
+
+    .bigCard-info p{font-size: 12px;}
+    
+    .bigCard-button{
+        font-size: 10px;
+        margin: 0 2px;
+        padding: 2% 2%;
+    }
+}
