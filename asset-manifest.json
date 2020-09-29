@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/app-netflix/static/css/main.8c290a29.chunk.css",
+    "main.js": "/app-netflix/static/js/main.5341f25b.chunk.js",
+    "main.js.map": "/app-netflix/static/js/main.5341f25b.chunk.js.map",
+    "runtime-main.js": "/app-netflix/static/js/runtime-main.c80c00a2.js",
+    "runtime-main.js.map": "/app-netflix/static/js/runtime-main.c80c00a2.js.map",
+    "static/js/2.86bb1a85.chunk.js": "/app-netflix/static/js/2.86bb1a85.chunk.js",
+    "static/js/2.86bb1a85.chunk.js.map": "/app-netflix/static/js/2.86bb1a85.chunk.js.map",
+    "index.html": "/app-netflix/index.html",
+    "precache-manifest.8a69d3a1bc244f2f3a35330f006bc927.js": "/app-netflix/precache-manifest.8a69d3a1bc244f2f3a35330f006bc927.js",
+    "service-worker.js": "/app-netflix/service-worker.js",
+    "static/css/main.8c290a29.chunk.css.map": "/app-netflix/static/css/main.8c290a29.chunk.css.map",
+    "static/js/2.86bb1a85.chunk.js.LICENSE.txt": "/app-netflix/static/js/2.86bb1a85.chunk.js.LICENSE.txt",
+    "static/media/bell.svg": "/app-netflix/static/media/bell.92359d64.svg",
+    "static/media/gift.svg": "/app-netflix/static/media/gift.f322865e.svg",
+    "static/media/github.svg": "/app-netflix/static/media/github.0b1a6e63.svg",
+    "static/media/linkedin.svg": "/app-netflix/static/media/linkedin.1e3b7376.svg",
+    "static/media/netflix_logo.png": "/app-netflix/static/media/netflix_logo.a1f673e7.png",
+    "static/media/search.svg": "/app-netflix/static/media/search.96bf0545.svg",
+    "static/media/simple-left.svg": "/app-netflix/static/media/simple-left.79a9f664.svg",
+    "static/media/simple-right.svg": "/app-netflix/static/media/simple-right.6206c07d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c80c00a2.js",
+    "static/js/2.86bb1a85.chunk.js",
+    "static/css/main.8c290a29.chunk.css",
+    "static/js/main.5341f25b.chunk.js"
+  ]
+}
